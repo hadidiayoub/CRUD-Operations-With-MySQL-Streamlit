@@ -39,13 +39,17 @@ To get this application up and running on your local machine, follow these steps
     pip install -r requirements.txt
     ```
 
-4. **Start the app**
+4. **Add database**
+    1. Go to MySQL and create database. Name: "crud_new1"
+    2. Import the ```uses.sql``` file to the database
+    
+5. **Start the app**
 
     ```
     streamlit run crud.py
     ```
 
-5. **Access the web interface**
+6. **Access the web interface**
 
     The application will be accessible via the URL provided by Streamlit.
 
